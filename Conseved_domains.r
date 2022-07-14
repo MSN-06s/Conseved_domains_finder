@@ -22,7 +22,7 @@ gap.threshold <- args[3]
 
 
 table1<-read.table(sprintf("%s",domains.1)
-table2<-read.table("%s",domains.2)
+table2<-read.table(sprintf("%s",domains.2)
 
 num.t1<-nrow(table1)
 num.t2<-nrow(table2)
